@@ -45,7 +45,7 @@ const instantiate = new MsgInstantiateContract(
     "",
     +code_id[0],
     {
-        treasury: "terra1md74d45hffytk0xwyf7slgcd8tjqarfwvstm50",
+        treasury: wallet.key.accAddress,
         treasury_tax_percent: 1,
         max_bets_by_addr: 50,
         min_bet_amounts: [
