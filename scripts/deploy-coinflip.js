@@ -1,6 +1,8 @@
-require('dotenv').config();
+import dotenv from 'dotenv'
 import { LCDClient, MsgStoreCode, MsgExecuteContract, MsgInstantiateContract, MnemonicKey, isTxError } from '@terra-money/terra.js';
 import * as fs from 'fs';
+
+dotenv.config();
 
 const mk = new MnemonicKey({
     mnemonic: process.env.MNEMONIC

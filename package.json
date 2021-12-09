@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "@terra-money/terra.js": "^3.0.1",
     "dotenv": "^10.0.0"
