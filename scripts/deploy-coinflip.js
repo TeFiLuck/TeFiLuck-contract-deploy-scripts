@@ -53,7 +53,7 @@ const instantiate = new MsgInstantiateContract(
             { denom :"uusd", min_amount: 100000}
         ],
         min_blocks_until_liquidation: 1,
-        max_blocks_until_liquidation: 5,
+        max_blocks_until_liquidation: 17280,
         bet_responder_liquidation_percent: 90,
         bet_liquidator_percent: 7,
         treasury_liquidation_percent: 3,
